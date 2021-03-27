@@ -1,14 +1,18 @@
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: program, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 p {
-  font-family: 'Jura', sans-serif;
+  font-family: program, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Navigation bar */
 .navbar {
-  background-color: white;
+  background-color: whit;
 }
 /* General */
 .customNav {
