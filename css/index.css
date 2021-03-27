@@ -7,7 +7,9 @@ p {
 }
 
 /* Navigation bar */
-
+.navbar {
+  background-color: white;
+}
 /* General */
 .customNav {
   position: fixed;
@@ -29,18 +31,6 @@ p {
   margin: 0px 15px;
 }
 
-/* Navigation dropdown menu */
-.dropdown-menu {
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
-  background-size: cover;
-}
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background: black;
-}
-
 /* Navigation links */
 .customNav a {
   color: white !important;
@@ -51,7 +41,7 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background-image: url(../images/rockOn_dark.jpg);
+  background-image: url(../images/header2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   height: calc(100vh - 25px);
@@ -101,7 +91,7 @@ p {
 
 /* Footer */
 .emailContain {
-  background: url(../images/emailBG.jpg);
+  background: url(../images/footer.jpeg);
   background-size: cover;
   display: flex;
   align-items: center;
